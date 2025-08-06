@@ -1,0 +1,16 @@
+[
+  {
+    "ticket_id": "SR-20250807-001",
+    "query": "Unable to access SAP portal",
+    "intent": "sap_login",
+    "status": "Resolved",
+    "timestamp": "2025-08-06 23:22:22"
+  },
+  {
+    "ticket_id": "SR-20250807-002",
+    "query": "VPN not working on Mac",
+    "intent": "vpn_issue",
+    "status": "Resolved",
+    "timestamp": "2025-08-06 23:22:22"
+  }
+]

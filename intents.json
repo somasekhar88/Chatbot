@@ -1,0 +1,143 @@
+[
+  {
+    "intent": "reset_password",
+    "patterns": [
+      "reset password",
+      "forgot password",
+      "can't login",
+      "login issue",
+      "sign-in problem"
+    ],
+    "response": "Please use the 'Forgot Password' link or contact the IT Helpdesk."
+  },
+  {
+    "intent": "vpn_issue",
+    "patterns": [
+      "vpn not working",
+      "vpn disconnects",
+      "vpn error",
+      "can't connect to vpn"
+    ],
+    "response": "Restart your VPN client and check your internet connection. Contact IT if the issue persists."
+  },
+  {
+    "intent": "payslip_issue",
+    "patterns": [
+      "payslip",
+      "salary slip",
+      "where is my payslip",
+      "pay not received"
+    ],
+    "response": "You can find your payslip in the HR portal under Payroll section."
+  },
+  {
+    "intent": "leave_request",
+    "patterns": [
+      "apply leave",
+      "request leave",
+      "submit vacation",
+      "annual leave"
+    ],
+    "response": "Please log your leave request via the HR Self-Service portal."
+  },
+  {
+    "intent": "mfa_problem",
+    "patterns": [
+      "mfa not working",
+      "can't receive code",
+      "2fa issue",
+      "authenticator problem"
+    ],
+    "response": "Please ensure your mobile app is synced and internet is available. Raise a ticket for reset if needed."
+  },
+  {
+    "intent": "onboarding",
+    "patterns": [
+      "new joiner",
+      "onboarding documents",
+      "first day help"
+    ],
+    "response": "Welcome! Please complete your onboarding checklist on the New Hire portal."
+  },
+  {
+    "intent": "offboarding",
+    "patterns": [
+      "exit process",
+      "resignation",
+      "last working day"
+    ],
+    "response": "Please submit your offboarding form and clear all assigned assets."
+  },
+  {
+    "intent": "asset_request",
+    "patterns": [
+      "need laptop",
+      "request device",
+      "new mouse",
+      "broken keyboard"
+    ],
+    "response": "Submit a request via the Asset Management System under IT Tools."
+  },
+  {
+    "intent": "email_access",
+    "patterns": [
+      "can't access email",
+      "outlook not loading",
+      "email not syncing"
+    ],
+    "response": "Restart Outlook or check webmail. If still blocked, IT can reset your mailbox."
+  },
+  {
+    "intent": "sharepoint_access",
+    "patterns": [
+      "sharepoint access",
+      "shared drive not opening",
+      "can't access team site"
+    ],
+    "response": "Request permissions via SharePoint Admin or ask the document owner to share access."
+  },
+  {
+    "intent": "sap_login",
+    "patterns": [
+      "sap login issue",
+      "sap error",
+      "can't open sap"
+    ],
+    "response": "Clear browser cache or reinstall SAP GUI. Contact App Support if problem continues."
+  },
+  {
+    "intent": "time_tracking",
+    "patterns": [
+      "can't submit timesheet",
+      "log hours",
+      "error in time entry"
+    ],
+    "response": "Please clear cache or try incognito mode. If it fails, escalate via HR support."
+  },
+  {
+    "intent": "portal_not_loading",
+    "patterns": [
+      "hr portal down",
+      "employee portal issue"
+    ],
+    "response": "Try again after 5 minutes. It may be under maintenance."
+  },
+  {
+    "intent": "system_slow",
+    "patterns": [
+      "system slow",
+      "laptop freezing",
+      "app hangs"
+    ],
+    "response": "Reboot the system and close background tasks. Contact IT for hardware issues."
+  },
+  {
+    "intent": "meeting_issue",
+    "patterns": [
+      "can't join teams",
+      "meeting link not working",
+      "teams audio issue"
+    ],
+    "response": "Restart Teams app or rejoin the meeting. IT can help troubleshoot audio/video settings."
+  }
+]
