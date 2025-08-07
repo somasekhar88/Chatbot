@@ -4,10 +4,11 @@ import json
 import random
 from datetime import datetime
 import spacy
+import en_core_web_sm
 from spacy.matcher import PhraseMatcher
 
 # Load spaCy model and matcher
-nlp = spacy.load("en_core_web_sm")
+nlp = en_core_web_sm.load()
 matcher = PhraseMatcher(nlp.vocab, attr="LOWER")
 
 # Load intents
