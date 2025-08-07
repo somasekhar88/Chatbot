@@ -58,4 +58,9 @@ streamlit run chatbot.py
 - Connect your repo, select `chatbot.py` as the main file
 - Done
 
+<<<<<<< HEAD
 ---
+=======
+---
+
+>>>>>>> 19f1882f060e46dd1b8ecda42607ee8d378911cd

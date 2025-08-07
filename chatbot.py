@@ -4,10 +4,20 @@ import json
 import random
 from datetime import datetime
 import spacy
-import en_core_web_sm
 from spacy.matcher import PhraseMatcher
+import subprocess
+import importlib.util
+
+
+# Check if en_core_web_sm is installed; if not, install it
+if importlib.util.find_spec("en_core_web_sm") is None:
+    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+
+
+    
 
 # Load spaCy model and matcher
+import en_core_web_sm
 nlp = en_core_web_sm.load()
 matcher = PhraseMatcher(nlp.vocab, attr="LOWER")
 
