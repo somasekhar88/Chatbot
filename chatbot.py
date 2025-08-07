@@ -66,7 +66,7 @@ def log_ticket(user_query, intent=None):
     return ticket
 
 # Streamlit UI
-st.title("Internal Application Support Chatbot 🤖")
+st.title("Internal Application Support Chatbot")
 st.markdown("Ask me about HR, IT, Application, or Security issues!")
 
 if "chat_history" not in st.session_state:
